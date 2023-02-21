@@ -3,3 +3,7 @@ What is the difference between a merge and a rebase?
 Merging creates a new merge commit that combines changes from two or more branches. It's a way of bringing together the changes made on two separate branches into a single branch. When you merge two branches, Git creates a new commit that has two or more parent commits. The merge commit includes all the changes made in both branches, and Git tries to automatically resolve any conflicts that might arise.
 
 Rebasing, on the other hand, rewrites the history of one branch so that it appears to have been based on another branch from the very beginning. When you rebase a branch, Git essentially replays the changes made on the rebased branch onto the branch that it's being rebased onto. The result is a linear history, with all the changes applied in sequence. Rebasing is often used to keep the commit history clean and avoid unnecessary merge commits.
+
+What is a remote repository?
+
+A remote repository allows you to collaborate with others on a project by sharing your changes with them and receiving their changes in return. When you clone a remote repository, you create a local copy of the repository on your computer that is linked to the remote repository. You can then fetch the changes made by others and push your own changes to the remote repository.
